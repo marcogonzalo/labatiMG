@@ -3,7 +3,7 @@ Given /^an article with the title "([^"]*)"$/ do |titulo|
 end
 
 When /^I am on the articles page$/ do
-  visit articles_path
+  get articles_path
 end
 
 Then /^I should see "([^"]*)"$/ do |titulo|
