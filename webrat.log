@@ -1,0 +1,16 @@
+# Logfile created on 2011-01-16 15:17:55 -0430 by logger.rb/25413
+REQUESTING PAGE: GET /articles with {} and HTTP headers {}
+REQUESTING PAGE: GET /articles with {} and HTTP headers {}
+REQUESTING PAGE: GET /articles/1 with {} and HTTP headers {"HTTP_REFERER"=>"/articles"}
+REQUESTING PAGE: GET /articles with {} and HTTP headers {}
+REQUESTING PAGE: GET /articles with {} and HTTP headers {}
+REQUESTING PAGE: GET /articles/1 with {} and HTTP headers {"HTTP_REFERER"=>"/articles"}
+REQUESTING PAGE: GET /articles with {} and HTTP headers {}
+REQUESTING PAGE: GET /articles with {} and HTTP headers {}
+REQUESTING PAGE: GET /articles/1 with {} and HTTP headers {"HTTP_REFERER"=>"/articles"}
+REQUESTING PAGE: GET /articles with {} and HTTP headers {}
+REQUESTING PAGE: GET /articles with {} and HTTP headers {}
+REQUESTING PAGE: GET /articles/1 with {} and HTTP headers {"HTTP_REFERER"=>"/articles"}
+REQUESTING PAGE: GET /articles with {} and HTTP headers {}
+REQUESTING PAGE: GET /articles with {} and HTTP headers {}
+REQUESTING PAGE: GET /articles/1 with {} and HTTP headers {"HTTP_REFERER"=>"/articles"}
