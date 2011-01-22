@@ -12,6 +12,8 @@
   <% end %>
 
   <div class="actions">
-    <%= f.submit %>
+    <%= f.label :title %>: <%= f.text_field :title %><br />
+    <%= f.label :content %>: <%= f.text_field :content %><br />
+    <%= f.submit "Guardar" %>
   </div>
 <% end %>

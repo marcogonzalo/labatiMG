@@ -7,8 +7,8 @@ Feature: Administer articles
     Given there is no article with the title "Hello world!"
     And I am on the articles page
     When I follow "Agregar articulo"
-    And I fill in "Titulo" with "Hello world!"
-    And I fill in "Contenido" with "spam spam spam"
+    And I fill in "Title" with "Hello world!"
+    And I fill in "Content" with "spam spam spam"
     And I press "Guardar"
     Then I should be on the article show page for "Hello world!"
     And I should see "El articulo ha sido guardado"
@@ -21,7 +21,7 @@ Feature: Administer articles
     Given an article with the title "Hello world!"
     And I am on the articles page
     When I follow "Agregar articulo"
-    And I fill in "Titulo" with "Hello world!"
+    And I fill in "Title" with "Hello world!"
     And I press "Guardar"
     And I should not see "El articulo ha sido guardado"
 
@@ -45,7 +45,7 @@ Feature: Administer articles
     And I am on the articles page
     When I follow "Hello world!"
     And I follow "Editar"
-    And I fill in "Titulo" with "No more hello world!"
+    And I fill in "Title" with "No more hello world!"
     And I press "Guardar"
     Then I should be on the article show page for "No more hello world!"
     And I should see "El articulo ha sido actualizado"
@@ -58,7 +58,7 @@ Feature: Administer articles
     And I am on the articles page
     When I follow "Hello world!"
     And I follow "Editar"
-    And I fill in "Contenido" with "este no es el contenido original"
+    And I fill in "Content" with "este no es el Content original"
     And I press "Guardar"
     Then I should be on the article show page for "Hello world!"
     And I should see "El articulo ha sido actualizado"
