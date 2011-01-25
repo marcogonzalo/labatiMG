@@ -2,6 +2,8 @@
 
 <%=h @article.title %>
 <%= @article.content %>
-
+<p>
 <%= link_to 'Editar', edit_article_path(@article) %> |
+<%= link_to 'Eliminar', @article, :confirm => "¿Seguro que quieres borrar el articulo?", :method => :delete %> |
 <%= link_to 'Volver a articulos', articles_path %>
+<p>

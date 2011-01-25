@@ -62,5 +62,5 @@ Feature: Administer articles
     And I press "Guardar"
     Then I should be on the article show page for "Hello world!"
     And I should see "El articulo ha sido actualizado"
-    And I should see "este no es el contenido original"
+    And I should see "este no es el Content original"
 
