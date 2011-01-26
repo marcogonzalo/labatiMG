@@ -31,4 +31,6 @@ group :development, :test do
   gem 'cucumber-rails', '>= 0.3.2'
   gem 'capybara'
   gem "builder", "~> 2.1.2"
+  gem "simplecov"
+  gem "authlogic"
 end
