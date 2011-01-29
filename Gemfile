@@ -32,5 +32,5 @@ group :development, :test do
   gem 'capybara'
   gem "builder", "~> 2.1.2"
   gem "simplecov"
-  gem "authlogic"
+  gem "devise"
 end
