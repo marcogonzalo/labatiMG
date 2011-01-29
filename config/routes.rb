@@ -1,4 +1,6 @@
 LabatiMG::Application.routes.draw do
+  devise_for :admins
+
   resources :articles
 
   # The priority is based upon order of creation:

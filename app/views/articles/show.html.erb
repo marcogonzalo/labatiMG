@@ -1,9 +1,9 @@
-<p id="notice"><%= notice %></p>
-
 <%=h @article.title %>
 <%= @article.content %>
 <p>
+<% if admin_signed_in? %>
 <%= link_to 'Editar', edit_article_path(@article) %> |
 <%= link_to 'Eliminar', @article, :confirm => "¿Seguro que quieres borrar el articulo?", :method => :delete %> |
+<% end %>
 <%= link_to 'Volver a articulos', articles_path %>
 <p>
