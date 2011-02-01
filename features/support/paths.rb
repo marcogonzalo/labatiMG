@@ -13,8 +13,12 @@ module NavigationHelpers
       
     when /the article show page for "(.+)"/
       article_path(Article.find_by_title($1))
-      
     
+    when /login/
+      '/admins/sign_in'  
+    
+    when /new article page/
+      '/articles/new' 
 
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:

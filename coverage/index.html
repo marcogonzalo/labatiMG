@@ -21,20 +21,20 @@
       <img src="./assets/0.3.9/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2011-01-25T10:20:47-04:30">2011-01-25T10:20:47-04:30</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2011-01-31T19:41:05-04:30">2011-01-31T19:41:05-04:30</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     All Files
-    (<span class="green">95.74%</span>)
+    (<span class="green">96.08%</span>)
   </h2>
   <a name="AllFiles"></a>
   <div>
-    <b>5</b> files in total.
-    <b>47</b> relevant lines. 
-    <span class="green"><b>45</b> lines covered</span> and
+    <b>6</b> files in total.
+    <b>51</b> relevant lines. 
+    <span class="green"><b>49</b> lines covered</span> and
     <span class="red"><b>2</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -61,10 +61,10 @@
       
       <tr>
         <td><a href="#a898921b7158cc3d40ebe75154b32a69399629ed" class="src_link" title="./app/controllers/articles_controller.rb">./app/controllers/articles_controller.rb</a></td>
-        <td class="green">95.0 %</td>
-        <td>83</td>
-        <td>40</td>
-        <td>38</td>
+        <td class="green">95.12 %</td>
+        <td>87</td>
+        <td>41</td>
+        <td>39</td>
         <td>2</td>
       </tr>
       
@@ -87,6 +87,15 @@
       </tr>
       
       <tr>
+        <td><a href="#4981373b4a562a164b5a1facedba00d0dbbacef4" class="src_link" title="./app/models/admin.rb">./app/models/admin.rb</a></td>
+        <td class="green">100.0 %</td>
+        <td>9</td>
+        <td>3</td>
+        <td>3</td>
+        <td>0</td>
+      </tr>
+      
+      <tr>
         <td><a href="#5905d53264b278009657c8a67209055dc5b4c90e" class="src_link" title="./app/models/article.rb">./app/models/article.rb</a></td>
         <td class="green">100.0 %</td>
         <td>5</td>
@@ -103,13 +112,13 @@
           <div class="file_list_container" id="Controllers">
   <h2>
     Controllers
-    (<span class="green">95.24%</span>)
+    (<span class="green">95.35%</span>)
   </h2>
   <a name="Controllers"></a>
   <div>
     <b>2</b> files in total.
-    <b>42</b> relevant lines. 
-    <span class="green"><b>40</b> lines covered</span> and
+    <b>43</b> relevant lines. 
+    <span class="green"><b>41</b> lines covered</span> and
     <span class="red"><b>2</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -136,10 +145,10 @@
       
       <tr>
         <td><a href="#a898921b7158cc3d40ebe75154b32a69399629ed" class="src_link" title="./app/controllers/articles_controller.rb">./app/controllers/articles_controller.rb</a></td>
-        <td class="green">95.0 %</td>
-        <td>83</td>
-        <td>40</td>
-        <td>38</td>
+        <td class="green">95.12 %</td>
+        <td>87</td>
+        <td>41</td>
+        <td>39</td>
         <td>2</td>
       </tr>
       
@@ -154,9 +163,9 @@
   </h2>
   <a name="Models"></a>
   <div>
-    <b>1</b> files in total.
-    <b>3</b> relevant lines. 
-    <span class="green"><b>3</b> lines covered</span> and
+    <b>2</b> files in total.
+    <b>6</b> relevant lines. 
+    <span class="green"><b>6</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -171,6 +180,15 @@
       </tr>
     </thead>
     <tbody>
+      
+      <tr>
+        <td><a href="#4981373b4a562a164b5a1facedba00d0dbbacef4" class="src_link" title="./app/models/admin.rb">./app/models/admin.rb</a></td>
+        <td class="green">100.0 %</td>
+        <td>9</td>
+        <td>3</td>
+        <td>3</td>
+        <td>0</td>
+      </tr>
       
       <tr>
         <td><a href="#5905d53264b278009657c8a67209055dc5b4c90e" class="src_link" title="./app/models/article.rb">./app/models/article.rb</a></td>
@@ -366,7 +384,7 @@
     <tr>
       <td colspan="3">
         <h3>./app/controllers/articles_controller.rb</h3>
-        <h4><span class="green">95.0 %</span> covered</h4>
+        <h4><span class="green">95.12 %</span> covered</h4>
       </td>
     </tr>
     <tr>
@@ -396,6 +414,58 @@
         <pre>2</pre>
       </td>
       <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>3</pre>
+      </td>
+      <td>
+        <pre>  before_filter :authenticate_admin!, :except =&gt; [:index, :show]</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>4</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>5</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>6</pre>
+      </td>
+      <td>
         <pre>  # GET /articles</pre>
       </td>
       <td class="hits">
@@ -406,7 +476,7 @@
     
     <tr class="never" >
       <td class="line_number">
-        <pre>3</pre>
+        <pre>7</pre>
       </td>
       <td>
         <pre>  # GET /articles.xml</pre>
@@ -419,7 +489,7 @@
     
     <tr class="hit" data-hits="1">
       <td class="line_number">
-        <pre>4</pre>
+        <pre>8</pre>
       </td>
       <td>
         <pre>  def index</pre>
@@ -430,22 +500,22 @@
     </tr>
   
     
-    <tr class="hit" data-hits="9">
+    <tr class="hit" data-hits="23">
       <td class="line_number">
-        <pre>5</pre>
+        <pre>9</pre>
       </td>
       <td>
         <pre>    @articles = Article.all</pre>
       </td>
       <td class="hits">
-        9
+        23
       </td>
     </tr>
   
     
     <tr class="never" >
       <td class="line_number">
-        <pre>6</pre>
+        <pre>10</pre>
       </td>
       <td>
         <pre></pre>
@@ -456,48 +526,48 @@
     </tr>
   
     
-    <tr class="hit" data-hits="9">
+    <tr class="hit" data-hits="23">
       <td class="line_number">
-        <pre>7</pre>
+        <pre>11</pre>
       </td>
       <td>
         <pre>    respond_to do |format|</pre>
       </td>
       <td class="hits">
-        9
+        23
       </td>
     </tr>
   
     
-    <tr class="hit" data-hits="9">
+    <tr class="hit" data-hits="23">
       <td class="line_number">
-        <pre>8</pre>
+        <pre>12</pre>
       </td>
       <td>
         <pre>      format.html # index.html.erb</pre>
       </td>
       <td class="hits">
-        9
+        23
       </td>
     </tr>
   
     
-    <tr class="hit" data-hits="9">
+    <tr class="hit" data-hits="23">
       <td class="line_number">
-        <pre>9</pre>
+        <pre>13</pre>
       </td>
       <td>
         <pre>      format.xml  { render :xml =&gt; @articles }</pre>
       </td>
       <td class="hits">
-        9
+        23
       </td>
     </tr>
   
     
     <tr class="never" >
       <td class="line_number">
-        <pre>10</pre>
+        <pre>14</pre>
       </td>
       <td>
         <pre>    end</pre>
@@ -510,7 +580,7 @@
     
     <tr class="never" >
       <td class="line_number">
-        <pre>11</pre>
+        <pre>15</pre>
       </td>
       <td>
         <pre>  end</pre>
@@ -523,7 +593,7 @@
     
     <tr class="never" >
       <td class="line_number">
-        <pre>12</pre>
+        <pre>16</pre>
       </td>
       <td>
         <pre></pre>
@@ -536,7 +606,7 @@
     
     <tr class="never" >
       <td class="line_number">
-        <pre>13</pre>
+        <pre>17</pre>
       </td>
       <td>
         <pre>  # GET /articles/1</pre>
@@ -549,7 +619,7 @@
     
     <tr class="never" >
       <td class="line_number">
-        <pre>14</pre>
+        <pre>18</pre>
       </td>
       <td>
         <pre>  # GET /articles/1.xml</pre>
@@ -562,7 +632,7 @@
     
     <tr class="hit" data-hits="1">
       <td class="line_number">
-        <pre>15</pre>
+        <pre>19</pre>
       </td>
       <td>
         <pre>  def show</pre>
@@ -575,62 +645,10 @@
     
     <tr class="hit" data-hits="7">
       <td class="line_number">
-        <pre>16</pre>
-      </td>
-      <td>
-        <pre>    @article = Article.find(params[:id])</pre>
-      </td>
-      <td class="hits">
-        7
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>17</pre>
-      </td>
-      <td>
-        <pre></pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="7">
-      <td class="line_number">
-        <pre>18</pre>
-      </td>
-      <td>
-        <pre>    respond_to do |format|</pre>
-      </td>
-      <td class="hits">
-        7
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="7">
-      <td class="line_number">
-        <pre>19</pre>
-      </td>
-      <td>
-        <pre>      format.html # show.html.erb</pre>
-      </td>
-      <td class="hits">
-        7
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="7">
-      <td class="line_number">
         <pre>20</pre>
       </td>
       <td>
-        <pre>      format.xml  { render :xml =&gt; @article }</pre>
+        <pre>    @article = Article.find(params[:id])</pre>
       </td>
       <td class="hits">
         7
@@ -643,6 +661,58 @@
         <pre>21</pre>
       </td>
       <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="7">
+      <td class="line_number">
+        <pre>22</pre>
+      </td>
+      <td>
+        <pre>    respond_to do |format|</pre>
+      </td>
+      <td class="hits">
+        7
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="7">
+      <td class="line_number">
+        <pre>23</pre>
+      </td>
+      <td>
+        <pre>      format.html # show.html.erb</pre>
+      </td>
+      <td class="hits">
+        7
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="7">
+      <td class="line_number">
+        <pre>24</pre>
+      </td>
+      <td>
+        <pre>      format.xml  { render :xml =&gt; @article }</pre>
+      </td>
+      <td class="hits">
+        7
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>25</pre>
+      </td>
+      <td>
         <pre>    end</pre>
       </td>
       <td class="hits">
@@ -653,7 +723,7 @@
     
     <tr class="never" >
       <td class="line_number">
-        <pre>22</pre>
+        <pre>26</pre>
       </td>
       <td>
         <pre>  end</pre>
@@ -666,7 +736,7 @@
     
     <tr class="never" >
       <td class="line_number">
-        <pre>23</pre>
+        <pre>27</pre>
       </td>
       <td>
         <pre></pre>
@@ -679,7 +749,7 @@
     
     <tr class="never" >
       <td class="line_number">
-        <pre>24</pre>
+        <pre>28</pre>
       </td>
       <td>
         <pre>  # GET /articles/new</pre>
@@ -692,7 +762,7 @@
     
     <tr class="never" >
       <td class="line_number">
-        <pre>25</pre>
+        <pre>29</pre>
       </td>
       <td>
         <pre>  # GET /articles/new.xml</pre>
@@ -705,7 +775,7 @@
     
     <tr class="hit" data-hits="1">
       <td class="line_number">
-        <pre>26</pre>
+        <pre>30</pre>
       </td>
       <td>
         <pre>  def new</pre>
@@ -718,7 +788,7 @@
     
     <tr class="hit" data-hits="3">
       <td class="line_number">
-        <pre>27</pre>
+        <pre>31</pre>
       </td>
       <td>
         <pre>    @article = Article.new</pre>
@@ -731,7 +801,7 @@
     
     <tr class="never" >
       <td class="line_number">
-        <pre>28</pre>
+        <pre>32</pre>
       </td>
       <td>
         <pre></pre>
@@ -744,7 +814,7 @@
     
     <tr class="hit" data-hits="3">
       <td class="line_number">
-        <pre>29</pre>
+        <pre>33</pre>
       </td>
       <td>
         <pre>    respond_to do |format|</pre>
@@ -757,7 +827,7 @@
     
     <tr class="hit" data-hits="3">
       <td class="line_number">
-        <pre>30</pre>
+        <pre>34</pre>
       </td>
       <td>
         <pre>      format.html # new.html.erb</pre>
@@ -770,7 +840,7 @@
     
     <tr class="hit" data-hits="3">
       <td class="line_number">
-        <pre>31</pre>
+        <pre>35</pre>
       </td>
       <td>
         <pre>      format.xml  { render :xml =&gt; @article }</pre>
@@ -783,7 +853,7 @@
     
     <tr class="never" >
       <td class="line_number">
-        <pre>32</pre>
+        <pre>36</pre>
       </td>
       <td>
         <pre>    end</pre>
@@ -796,65 +866,13 @@
     
     <tr class="never" >
       <td class="line_number">
-        <pre>33</pre>
+        <pre>37</pre>
       </td>
       <td>
         <pre>  end</pre>
       </td>
       <td class="hits">
         
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>34</pre>
-      </td>
-      <td>
-        <pre></pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>35</pre>
-      </td>
-      <td>
-        <pre>  # GET /articles/1/edit</pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="1">
-      <td class="line_number">
-        <pre>36</pre>
-      </td>
-      <td>
-        <pre>  def edit</pre>
-      </td>
-      <td class="hits">
-        1
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="2">
-      <td class="line_number">
-        <pre>37</pre>
-      </td>
-      <td>
-        <pre>    @article = Article.find(params[:id])</pre>
-      </td>
-      <td class="hits">
-        2
       </td>
     </tr>
   
@@ -864,7 +882,7 @@
         <pre>38</pre>
       </td>
       <td>
-        <pre>  end</pre>
+        <pre></pre>
       </td>
       <td class="hits">
         
@@ -877,6 +895,58 @@
         <pre>39</pre>
       </td>
       <td>
+        <pre>  # GET /articles/1/edit</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>40</pre>
+      </td>
+      <td>
+        <pre>  def edit</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="2">
+      <td class="line_number">
+        <pre>41</pre>
+      </td>
+      <td>
+        <pre>    @article = Article.find(params[:id])</pre>
+      </td>
+      <td class="hits">
+        2
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>42</pre>
+      </td>
+      <td>
+        <pre>  end</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>43</pre>
+      </td>
+      <td>
         <pre></pre>
       </td>
       <td class="hits">
@@ -887,7 +957,7 @@
     
     <tr class="never" >
       <td class="line_number">
-        <pre>40</pre>
+        <pre>44</pre>
       </td>
       <td>
         <pre>  # POST /articles</pre>
@@ -900,7 +970,7 @@
     
     <tr class="never" >
       <td class="line_number">
-        <pre>41</pre>
+        <pre>45</pre>
       </td>
       <td>
         <pre>  # POST /articles.xml</pre>
@@ -913,7 +983,7 @@
     
     <tr class="hit" data-hits="1">
       <td class="line_number">
-        <pre>42</pre>
+        <pre>46</pre>
       </td>
       <td>
         <pre>  def create</pre>
@@ -926,7 +996,7 @@
     
     <tr class="hit" data-hits="3">
       <td class="line_number">
-        <pre>43</pre>
+        <pre>47</pre>
       </td>
       <td>
         <pre>    @article = Article.new(params[:article])</pre>
@@ -939,7 +1009,7 @@
     
     <tr class="never" >
       <td class="line_number">
-        <pre>44</pre>
+        <pre>48</pre>
       </td>
       <td>
         <pre></pre>
@@ -952,7 +1022,7 @@
     
     <tr class="hit" data-hits="3">
       <td class="line_number">
-        <pre>45</pre>
+        <pre>49</pre>
       </td>
       <td>
         <pre>    respond_to do |format|</pre>
@@ -965,7 +1035,7 @@
     
     <tr class="hit" data-hits="3">
       <td class="line_number">
-        <pre>46</pre>
+        <pre>50</pre>
       </td>
       <td>
         <pre>      if @article.save</pre>
@@ -978,7 +1048,7 @@
     
     <tr class="hit" data-hits="2">
       <td class="line_number">
-        <pre>47</pre>
+        <pre>51</pre>
       </td>
       <td>
         <pre>        format.html { redirect_to(@article, :notice =&gt; 'El articulo ha sido guardado') }</pre>
@@ -991,7 +1061,7 @@
     
     <tr class="hit" data-hits="1">
       <td class="line_number">
-        <pre>48</pre>
+        <pre>52</pre>
       </td>
       <td>
         <pre>        format.xml  { render :xml =&gt; @article, :status =&gt; :created, :location =&gt; @article }</pre>
@@ -1004,7 +1074,7 @@
     
     <tr class="never" >
       <td class="line_number">
-        <pre>49</pre>
+        <pre>53</pre>
       </td>
       <td>
         <pre>      else</pre>
@@ -1017,7 +1087,7 @@
     
     <tr class="hit" data-hits="4">
       <td class="line_number">
-        <pre>50</pre>
+        <pre>54</pre>
       </td>
       <td>
         <pre>        format.html { render :action =&gt; &quot;new&quot; }</pre>
@@ -1030,7 +1100,7 @@
     
     <tr class="hit" data-hits="2">
       <td class="line_number">
-        <pre>51</pre>
+        <pre>55</pre>
       </td>
       <td>
         <pre>        format.xml  { render :xml =&gt; @article.errors, :status =&gt; :unprocessable_entity }</pre>
@@ -1043,62 +1113,10 @@
     
     <tr class="never" >
       <td class="line_number">
-        <pre>52</pre>
-      </td>
-      <td>
-        <pre>      end</pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>53</pre>
-      </td>
-      <td>
-        <pre>    end</pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>54</pre>
-      </td>
-      <td>
-        <pre>  end</pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
-        <pre>55</pre>
-      </td>
-      <td>
-        <pre></pre>
-      </td>
-      <td class="hits">
-        
-      </td>
-    </tr>
-  
-    
-    <tr class="never" >
-      <td class="line_number">
         <pre>56</pre>
       </td>
       <td>
-        <pre>  # PUT /articles/1</pre>
+        <pre>      end</pre>
       </td>
       <td class="hits">
         
@@ -1111,6 +1129,58 @@
         <pre>57</pre>
       </td>
       <td>
+        <pre>    end</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>58</pre>
+      </td>
+      <td>
+        <pre>  end</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>59</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>60</pre>
+      </td>
+      <td>
+        <pre>  # PUT /articles/1</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>61</pre>
+      </td>
+      <td>
         <pre>  # PUT /articles/1.xml</pre>
       </td>
       <td class="hits">
@@ -1121,7 +1191,7 @@
     
     <tr class="hit" data-hits="1">
       <td class="line_number">
-        <pre>58</pre>
+        <pre>62</pre>
       </td>
       <td>
         <pre>  def update</pre>
@@ -1134,7 +1204,7 @@
     
     <tr class="hit" data-hits="2">
       <td class="line_number">
-        <pre>59</pre>
+        <pre>63</pre>
       </td>
       <td>
         <pre>    @article = Article.find(params[:id])</pre>
@@ -1147,7 +1217,7 @@
     
     <tr class="never" >
       <td class="line_number">
-        <pre>60</pre>
+        <pre>64</pre>
       </td>
       <td>
         <pre></pre>
@@ -1160,7 +1230,7 @@
     
     <tr class="hit" data-hits="2">
       <td class="line_number">
-        <pre>61</pre>
+        <pre>65</pre>
       </td>
       <td>
         <pre>    respond_to do |format|</pre>
@@ -1173,7 +1243,7 @@
     
     <tr class="hit" data-hits="2">
       <td class="line_number">
-        <pre>62</pre>
+        <pre>66</pre>
       </td>
       <td>
         <pre>      if @article.update_attributes(params[:article])</pre>
@@ -1186,7 +1256,7 @@
     
     <tr class="hit" data-hits="4">
       <td class="line_number">
-        <pre>63</pre>
+        <pre>67</pre>
       </td>
       <td>
         <pre>        format.html { redirect_to(@article, :notice =&gt; 'El articulo ha sido actualizado') }</pre>
@@ -1199,7 +1269,7 @@
     
     <tr class="hit" data-hits="2">
       <td class="line_number">
-        <pre>64</pre>
+        <pre>68</pre>
       </td>
       <td>
         <pre>        format.xml  { head :ok }</pre>
@@ -1212,7 +1282,7 @@
     
     <tr class="never" >
       <td class="line_number">
-        <pre>65</pre>
+        <pre>69</pre>
       </td>
       <td>
         <pre>      else</pre>
@@ -1225,7 +1295,7 @@
     
     <tr class="miss" data-hits="0">
       <td class="line_number">
-        <pre>66</pre>
+        <pre>70</pre>
       </td>
       <td>
         <pre>        format.html { render :action =&gt; &quot;edit&quot; }</pre>
@@ -1238,7 +1308,7 @@
     
     <tr class="miss" data-hits="0">
       <td class="line_number">
-        <pre>67</pre>
+        <pre>71</pre>
       </td>
       <td>
         <pre>        format.xml  { render :xml =&gt; @article.errors, :status =&gt; :unprocessable_entity }</pre>
@@ -1251,7 +1321,7 @@
     
     <tr class="never" >
       <td class="line_number">
-        <pre>68</pre>
+        <pre>72</pre>
       </td>
       <td>
         <pre>      end</pre>
@@ -1264,7 +1334,7 @@
     
     <tr class="never" >
       <td class="line_number">
-        <pre>69</pre>
+        <pre>73</pre>
       </td>
       <td>
         <pre>    end</pre>
@@ -1277,7 +1347,7 @@
     
     <tr class="never" >
       <td class="line_number">
-        <pre>70</pre>
+        <pre>74</pre>
       </td>
       <td>
         <pre>  end</pre>
@@ -1290,7 +1360,7 @@
     
     <tr class="never" >
       <td class="line_number">
-        <pre>71</pre>
+        <pre>75</pre>
       </td>
       <td>
         <pre></pre>
@@ -1303,7 +1373,7 @@
     
     <tr class="never" >
       <td class="line_number">
-        <pre>72</pre>
+        <pre>76</pre>
       </td>
       <td>
         <pre>  # DELETE /articles/1</pre>
@@ -1316,7 +1386,7 @@
     
     <tr class="never" >
       <td class="line_number">
-        <pre>73</pre>
+        <pre>77</pre>
       </td>
       <td>
         <pre>  # DELETE /articles/1.xml</pre>
@@ -1329,7 +1399,7 @@
     
     <tr class="hit" data-hits="1">
       <td class="line_number">
-        <pre>74</pre>
+        <pre>78</pre>
       </td>
       <td>
         <pre>  def destroy</pre>
@@ -1342,7 +1412,7 @@
     
     <tr class="hit" data-hits="1">
       <td class="line_number">
-        <pre>75</pre>
+        <pre>79</pre>
       </td>
       <td>
         <pre>    @article = Article.find(params[:id])</pre>
@@ -1355,7 +1425,7 @@
     
     <tr class="hit" data-hits="1">
       <td class="line_number">
-        <pre>76</pre>
+        <pre>80</pre>
       </td>
       <td>
         <pre>    @article.destroy</pre>
@@ -1368,7 +1438,7 @@
     
     <tr class="never" >
       <td class="line_number">
-        <pre>77</pre>
+        <pre>81</pre>
       </td>
       <td>
         <pre></pre>
@@ -1381,7 +1451,7 @@
     
     <tr class="hit" data-hits="1">
       <td class="line_number">
-        <pre>78</pre>
+        <pre>82</pre>
       </td>
       <td>
         <pre>    respond_to do |format|</pre>
@@ -1394,7 +1464,7 @@
     
     <tr class="hit" data-hits="2">
       <td class="line_number">
-        <pre>79</pre>
+        <pre>83</pre>
       </td>
       <td>
         <pre>      format.html { redirect_to(articles_url, :notice =&gt; 'El articulo ha sido eliminado') }</pre>
@@ -1407,7 +1477,7 @@
     
     <tr class="hit" data-hits="1">
       <td class="line_number">
-        <pre>80</pre>
+        <pre>84</pre>
       </td>
       <td>
         <pre>      format.xml  { head :ok }</pre>
@@ -1420,7 +1490,7 @@
     
     <tr class="never" >
       <td class="line_number">
-        <pre>81</pre>
+        <pre>85</pre>
       </td>
       <td>
         <pre>    end</pre>
@@ -1433,7 +1503,7 @@
     
     <tr class="never" >
       <td class="line_number">
-        <pre>82</pre>
+        <pre>86</pre>
       </td>
       <td>
         <pre>  end</pre>
@@ -1446,7 +1516,7 @@
     
     <tr class="never" >
       <td class="line_number">
-        <pre>83</pre>
+        <pre>87</pre>
       </td>
       <td>
         <pre>end</pre>
@@ -1541,6 +1611,144 @@
     <tr class="never" >
       <td class="line_number">
         <pre>2</pre>
+      </td>
+      <td>
+        <pre>end</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    </tbody>
+  </table>
+</div>
+      
+        <div class="source_table" id="4981373b4a562a164b5a1facedba00d0dbbacef4">
+  <table>
+    <thead>
+    <tr>
+      <td colspan="3">
+        <h3>./app/models/admin.rb</h3>
+        <h4><span class="green">100.0 %</span> covered</h4>
+      </td>
+    </tr>
+    <tr>
+      <th>#</th>
+      <th></th>
+      <th>Hits</th>
+    </tr>
+    </thead>
+    <tbody>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>1</pre>
+      </td>
+      <td>
+        <pre>class Admin &lt; ActiveRecord::Base</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>2</pre>
+      </td>
+      <td>
+        <pre>  # Include default devise modules. Others available are:</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>3</pre>
+      </td>
+      <td>
+        <pre>  # :token_authenticatable, :confirmable, :lockable and :timeoutable</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>4</pre>
+      </td>
+      <td>
+        <pre>  devise :database_authenticatable, :registerable,</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>5</pre>
+      </td>
+      <td>
+        <pre>         :recoverable, :rememberable, :trackable, :validatable</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>6</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>7</pre>
+      </td>
+      <td>
+        <pre>  # Setup accessible (or protected) attributes for your model</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>8</pre>
+      </td>
+      <td>
+        <pre>  attr_accessible :email, :password, :password_confirmation, :remember_me</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>9</pre>
       </td>
       <td>
         <pre>end</pre>
