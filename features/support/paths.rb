@@ -15,10 +15,16 @@ module NavigationHelpers
       article_path(Article.find_by_title($1))
     
     when /login/
-      '/admins/sign_in'  
+      new_admin_session_path  
     
     when /new article page/
-      '/articles/new' 
+      new_article_path
+      
+    when /"(.+)" edit page/
+      edit_article_path(Article.find_by_title($1))
+      
+    #when /"(.+)" delete page/
+    #  article_path(Article.find_by_title($1),:method => :destroy)
 
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:

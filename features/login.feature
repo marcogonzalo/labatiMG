@@ -11,10 +11,32 @@ Feature: User authentication
     And I should not see "Editar"
     And I should not see "Eliminar"
     And I should not see "Agregar articulo"
-    
-  Scenario: Adding an article (no authenticated)
-    Given I am not authenticated
+   
+  Scenario: Reading an article (no authenticated)
+    Given an article with the title "Hello world!"
+    And I am not authenticated
     And I am on the articles page
+    When I follow "Hello world!"
+    Then I should see "Hello world!"
+    But I should not see "Editar"
+    And I should not see "Eliminar"
+  
+  Scenario: Visiting edit article path (no authenticated)
+    Given an article with the title "Hello world!"
+    And I am not authenticated
+    When I go to "Hello world!" edit page 
+    Then I should be on login page
+    And I should see "You need to sign in or sign up before continuing."
+    
+#  @wip  
+#  Scenario: Visiting delete article path (no authenticated)
+#    Given an article with the title "Hello world!"
+#    And I am not authenticated
+#    When I try to delete the article with the title "Hello world!"
+#    Then I should be redirected to login page
+    
+  Scenario: Visiting new article path (no authenticated)
+    Given I am not authenticated
     When I go to new article page
     Then I should be on login page
     And I should see "You need to sign in or sign up before continuing."
